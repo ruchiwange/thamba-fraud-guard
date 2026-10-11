@@ -34,19 +34,7 @@ This is a prototype. Be clear about what has and has not been proven.
 | Android app: code, link and message guards, "Money gone?" helper | Builds and passed 11 checks on an Android 14 emulator. Not yet tested on a real phone |
 | Android app: payment guard and app guard | Passed on the emulator with a stand-in payment app. Not yet tested on a real phone or with a real payment app |
 
-Every test, with its result, is in [docs/TESTING.md](docs/TESTING.md). Every test, with its result, is in [docs/TESTING.md](docs/TESTING.md). Known limits are listed in [docs/FRAUD_COVERAGE.md](docs/FRAUD_COVERAGE.md).
-
-## Screenshots
-
-Taken on the emulator.
-
-| Warning during an unknown call | Payment question | Home |
-|---|---|---|
-| <img src="docs/screenshots/code_guard_warning.png" width="220"> | <img src="docs/screenshots/payment_guard_question.png" width="220"> | <img src="docs/screenshots/home_marathi.png" width="220"> |
-
-| App check | "Money gone?" helper |
-|---|---|
-| <img src="docs/screenshots/app_check.png" width="220"> | <img src="docs/screenshots/money_gone_helper.png" width="220"> |
+Every test, with its result, is in [docs/TESTING.md](docs/TESTING.md). Known limits are listed in [docs/FRAUD_COVERAGE.md](docs/FRAUD_COVERAGE.md).
 
 ## Screenshots
 
@@ -117,7 +105,6 @@ The app reads incoming SMS, call state, the name of the app on screen during a c
 ## Documents
 
 - [Architecture](docs/ARCHITECTURE.md)
-- [Testing](docs/TESTING.md)
 - [Testing](docs/TESTING.md)
 - [Fraud coverage and limits](docs/FRAUD_COVERAGE.md)
 - [Privacy](docs/PRIVACY.md)
