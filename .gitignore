@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+
+# Android
+.gradle/
+build/
+local.properties
+.idea/
+*.iml
+captures/
+.cxx/
+*.apk
+*.keystore
+
+# Never commit secrets or personal documents
+.env

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">थांबा</string>
+
+    <!-- Home and setup -->
+    <string name="home_on">संरक्षण चालू आहे</string>
+    <string name="home_off">सेटअप पूर्ण झालेला नाही. खालील पायऱ्या पूर्ण करा.</string>
+    <string name="setup_language">भाषा</string>
+    <string name="setup_family">धोक्याच्या वेळी कॉल करायचा घरच्यांचा नंबर</string>
+    <string name="setup_save">सेव्ह करा</string>
+    <string name="setup_saved">सेव्ह झाले</string>
+    <string name="setup_perm">1. संदेश, कॉल आणि संपर्क यांना परवानगी द्या</string>
+    <string name="setup_overlay">2. इतर अ‍ॅप्सवर इशारा दाखवण्याची परवानगी द्या</string>
+    <string name="setup_browser">3. मी उघडलेली प्रत्येक लिंक तपासा</string>
+    <string name="money_gone">पैसे गेले? लगेच मदत</string>
+    <string name="test_engine">इंजिन तपासा</string>
+
+    <!-- Code guard -->
+    <string name="alert_stop">थांबा!</string>
+    <string name="code_line">OTP कोणालाही सांगू नका</string>
+    <string name="code_why_payment">तुम्ही अनोळखी नंबरशी बोलत आहात आणि बँकेचा OTP आला आहे.</string>
+    <string name="code_why_login">तुम्ही अनोळखी नंबरशी बोलत आहात आणि तुमचं खातं उघडणारा कोड आला आहे.</string>
+    <string name="code_why_identity">तुम्ही अनोळखी नंबरशी बोलत आहात आणि आधार किंवा ओळखीचा कोड आला आहे.</string>
+    <string name="code_does_payment_amount">हा कोड सांगितल्यास तुमच्या खात्यातून ₹%1$s जातील.</string>
+    <string name="code_does_payment">हा कोड सांगितल्यास तुमच्या खात्यातून पैसे जाऊ शकतात.</string>
+    <string name="code_does_login">हा कोड सांगितल्यास समोरची व्यक्ती तुमचं खातं वापरू शकते.</string>
+    <string name="code_does_identity">हा कोड सांगितल्यास समोरची व्यक्ती तुमच्या नावाने व्यवहार करू शकते.</string>
+    <string name="notice_title">या कोडबद्दल</string>
+    <string name="notice_delivery">हा डिलिव्हरीचा OTP आहे. पार्सल हातात आल्यावरच सांगा.</string>
+    <string name="notice_payment_amount">हा कोड ₹%1$s च्या पेमेंटसाठी आहे. फोनवर कोणालाही सांगू नका.</string>
+    <string name="notice_payment">हा कोड पेमेंटसाठी आहे. फोनवर कोणालाही सांगू नका.</string>
+    <string name="notice_login">हा कोड तुमचं खातं उघडतो. कोणालाही सांगू नका.</string>
+    <string name="notice_identity">हा आधार किंवा ओळखीचा कोड आहे. कोणालाही सांगू नका.</string>
+
+    <!-- Buttons on warnings -->
+    <string name="btn_cut_call">कॉल कट करा</string>
+    <string name="btn_call_family">घरच्यांना कॉल करा</string>
+    <string name="btn_close">समजलं, बंद करा</string>
+    <string name="btn_go_back">परत जा</string>
+    <string name="btn_open_real">खरी वेबसाईट उघडा</string>
+    <string name="btn_open_anyway">काळजीपूर्वक उघडा</string>
+
+    <!-- Link guard -->
+    <string name="link_danger">धोका!</string>
+    <string name="link_line">ही लिंक उघडू नका</string>
+    <string name="link_why_lookalike">ही खरी सरकारी वेबसाईट नाही.</string>
+    <string name="link_real">खरी वेबसाईट: %1$s</string>
+    <string name="link_why_bait">मोफत बक्षीस देणाऱ्या लिंक फसवणुकीसाठी वापरतात. कार्ड किंवा UPI पिन कधीही टाकू नका.</string>
+    <string name="link_why_app_file">ही लिंक अ‍ॅप इन्स्टॉल करते. बँक किंवा सरकार कधीही लिंकने अ‍ॅप पाठवत नाही.</string>
+    <string name="link_why_ip">ही लिंक आपलं खरं नाव लपवते. खऱ्या वेबसाईट असं करत नाहीत.</string>
+    <string name="careful">सावध!</string>
+    <string name="link_amber_line">या लिंकबाबत सावध रहा</string>
+    <string name="link_why_shortened">ही लिंक छोटी केलेली आहे, त्यामुळे तिचा खरा पत्ता दिसत नाही.</string>
+    <string name="link_why_risky">असे पत्ते अनेकदा फसवणुकीसाठी वापरले जातात. पैसे किंवा वैयक्तिक माहिती देऊ नका.</string>
+    <string name="link_official">अधिकृत सरकारी वेबसाईट</string>
+    <string name="no_browser">लिंक उघडण्यासाठी ब्राउझर सापडला नाही</string>
+
+    <!-- Message guard -->
+    <string name="sender_line">हा संदेश बँकेकडून किंवा सरकारकडून नाही</string>
+    <string name="sender_why">तो साध्या मोबाईल नंबरवरून आला आहे. त्या नंबरवर कॉल करू नका आणि त्यातली लिंक उघडू नका.</string>
+
+    <!-- Money gone -->
+    <string name="complaint_title">पैसे गेले? घाबरू नका.</string>
+    <string name="complaint_amount">किती रक्कम गेली? (₹)</string>
+    <string name="complaint_when">कधी झालं?</string>
+    <string name="complaint_how">कसे पाठवले? (UPI, कार्ड, बँक ट्रान्सफर)</string>
+    <string name="complaint_txn">व्यवहार क्रमांक (असल्यास)</string>
+    <string name="complaint_make">तक्रार तयार करा</string>
+    <string name="complaint_read">हे वाचून सांगा</string>
+    <string name="complaint_text">वेळ: %1$s. माझ्या खात्यातून %3$s द्वारे ₹%2$s फसवणुकीने गेले. व्यवहार क्रमांक: %4$s.</string>
+    <string name="complaint_steps">1. 1930 ला कॉल करा\n2. बँकेला कळवा आणि खातं थांबवा\n3. cybercrime.gov.in वर तक्रार नोंदवा</string>
+    <string name="complaint_call_1930">1930 ला कॉल करा</string>
+    <string name="complaint_copy">मजकूर कॉपी करा</string>
+    <string name="copied">कॉपी झाले</string>
+
+    <!-- Payment guard -->
+    <string name="setup_usage">4. कॉल चालू असताना पैसे पाठवताना मला इशारा द्या</string>
+    <string name="payment_line">कॉलवर कोणी सांगितलं म्हणून पैसे पाठवत आहात का?</string>
+    <string name="payment_why">तुम्ही अनोळखी नंबरशी बोलत आहात. पोलीस, बँक किंवा सरकार कधीही फोनवर पैसे मागत नाही.</string>
+    <string name="btn_family_first">आधी घरच्यांना कॉल करा</string>
+    <string name="btn_paying_myself">मी स्वतःहून पाठवत आहे</string>
+    <string name="watch_title">या कॉलदरम्यान थांबा चालू आहे</string>
+    <string name="channel_watch">थांबा कॉल पहारा</string>
+
+    <!-- App guard -->
+    <string name="check_apps">माझ्या फोनमधील धोकादायक अ‍ॅप्स तपासा</string>
+    <string name="apps_title">या फोनमधील धोकादायक अ‍ॅप्स</string>
+    <string name="apps_checking">तपासत आहे…</string>
+    <string name="apps_none">धोकादायक अ‍ॅप सापडले नाही</string>
+    <string name="app_why_sms">हे अ‍ॅप स्टोअरमधून आलेलं नाही आणि ते तुमचे संदेश व OTP वाचू शकतं.</string>
+    <string name="app_why_remote">या अ‍ॅपमुळे दुसरी व्यक्ती तुमची स्क्रीन पाहू किंवा चालवू शकते. तुम्ही स्वतः कामासाठी घेतलं असेल तरच ठेवा.</string>
+    <string name="btn_remove">हे अ‍ॅप काढून टाका</string>
+
+    <string name="channel_alerts">थांबा इशारे</string>
+    <string name="channel_notices">थांबा सूचना</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="stop">#C62F2A</color>
+    <color name="stop_soft">#FBE6E4</color>
+    <color name="warn">#F2B01E</color>
+    <color name="warn_soft">#FDF1CF</color>
+    <color name="warn_ink">#3D2C00</color>
+    <color name="safe">#1D7A55</color>
+    <color name="brand">#23357A</color>
+    <color name="brand_soft">#E4E9F8</color>
+    <color name="ink">#16203A</color>
+    <color name="on_strong">#FFFFFF</color>
+</resources>

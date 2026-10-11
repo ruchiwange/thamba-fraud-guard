@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Thamba</string>
+    <string name="app_title">Thamba</string>
+
+    <!-- Home and setup -->
+    <string name="home_on">Protection is on</string>
+    <string name="home_off">Setup is not finished. Complete the steps below.</string>
+    <string name="setup_language">Language</string>
+    <string name="setup_family">Family number to call in danger</string>
+    <string name="setup_save">Save</string>
+    <string name="setup_saved">Saved</string>
+    <string name="setup_perm">1. Allow messages, calls and contacts</string>
+    <string name="setup_overlay">2. Allow warnings over other apps</string>
+    <string name="setup_browser">3. Check every link I tap</string>
+    <string name="money_gone">Money gone? Get help now</string>
+    <string name="test_engine">Test the engine</string>
+
+    <!-- Code guard -->
+    <string name="alert_stop">Stop!</string>
+    <string name="code_line">Do not tell the OTP to anyone</string>
+    <string name="code_why_payment">You are on a call with an unknown number and a bank OTP has arrived.</string>
+    <string name="code_why_login">You are on a call with an unknown number and a code that opens your account has arrived.</string>
+    <string name="code_why_identity">You are on a call with an unknown number and an Aadhaar or identity code has arrived.</string>
+    <string name="code_does_payment_amount">If you share this code, ₹%1$s will leave your account.</string>
+    <string name="code_does_payment">If you share this code, money can leave your account.</string>
+    <string name="code_does_login">If you share this code, the caller can get into your account.</string>
+    <string name="code_does_identity">If you share this code, the caller can act in your name.</string>
+    <string name="notice_title">About this code</string>
+    <string name="notice_delivery">This is a delivery OTP. Share it only when the parcel is in your hands.</string>
+    <string name="notice_payment_amount">This code is for a payment of ₹%1$s. Do not tell it to any caller.</string>
+    <string name="notice_payment">This code is for a payment. Do not tell it to any caller.</string>
+    <string name="notice_login">This code opens your account. Do not tell it to anyone.</string>
+    <string name="notice_identity">This is an Aadhaar or identity code. Do not tell it to anyone.</string>
+
+    <!-- Buttons on warnings -->
+    <string name="btn_cut_call">Cut the call</string>
+    <string name="btn_call_family">Call family</string>
+    <string name="btn_close">I understand, close</string>
+    <string name="btn_go_back">Go back</string>
+    <string name="btn_open_real">Open the real site</string>
+    <string name="btn_open_anyway">Open carefully</string>
+
+    <!-- Link guard -->
+    <string name="link_danger">Danger!</string>
+    <string name="link_line">Do not open this link</string>
+    <string name="link_why_lookalike">This is not the real government website.</string>
+    <string name="link_real">The real site: %1$s</string>
+    <string name="link_why_bait">Free-prize links are used for fraud. Never enter card details or your UPI PIN.</string>
+    <string name="link_why_app_file">This link installs an app. Banks and the government never send apps by link.</string>
+    <string name="link_why_ip">This link hides its real name. Genuine websites do not do this.</string>
+    <string name="careful">Careful!</string>
+    <string name="link_amber_line">Be careful with this link</string>
+    <string name="link_why_shortened">This link is shortened, so its real address is hidden.</string>
+    <string name="link_why_risky">Addresses like this are often used for fraud. Do not give money or personal details.</string>
+    <string name="link_official">Official government website</string>
+    <string name="no_browser">No browser found to open the link</string>
+
+    <!-- Message guard -->
+    <string name="sender_line">This message is not from a bank or the government</string>
+    <string name="sender_why">It came from an ordinary mobile number. Do not call that number or open its link.</string>
+
+    <!-- Money gone -->
+    <string name="complaint_title">Money gone? Do not panic.</string>
+    <string name="complaint_amount">Amount lost (₹)</string>
+    <string name="complaint_when">When did it happen?</string>
+    <string name="complaint_how">How was it sent? (UPI, card, bank transfer)</string>
+    <string name="complaint_txn">Transaction ID, if you have it</string>
+    <string name="complaint_make">Prepare my complaint</string>
+    <string name="complaint_read">Read this out</string>
+    <string name="complaint_text">Time: %1$s. ₹%2$s was taken from my account by fraud through %3$s. Transaction ID: %4$s.</string>
+    <string name="complaint_steps">1. Call 1930\n2. Tell your bank and freeze the account\n3. File a complaint on cybercrime.gov.in</string>
+    <string name="complaint_call_1930">Call 1930</string>
+    <string name="complaint_copy">Copy the text</string>
+    <string name="copied">Copied</string>
+
+    <!-- Payment guard -->
+    <string name="setup_usage">4. Warn me when I pay during a call</string>
+    <string name="payment_line">Are you sending money because someone on the call told you to?</string>
+    <string name="payment_why">You are on a call with an unknown number. Police, banks and the government never ask for money over the phone.</string>
+    <string name="btn_family_first">Call family first</string>
+    <string name="btn_paying_myself">I am paying on my own</string>
+    <string name="watch_title">Thamba is on during this call</string>
+    <string name="channel_watch">Thamba call watch</string>
+
+    <!-- App guard -->
+    <string name="check_apps">Check my phone for dangerous apps</string>
+    <string name="apps_title">Dangerous apps on this phone</string>
+    <string name="apps_checking">Checking…</string>
+    <string name="apps_none">No dangerous apps found</string>
+    <string name="app_why_sms">It was not installed from an app store, and it can read your messages and OTPs.</string>
+    <string name="app_why_remote">This app lets another person see or control your screen. Keep it only if you installed it yourself for a reason.</string>
+    <string name="btn_remove">Remove this app</string>
+
+    <string name="channel_alerts">Thamba warnings</string>
+    <string name="channel_notices">Thamba notes</string>
+</resources>
